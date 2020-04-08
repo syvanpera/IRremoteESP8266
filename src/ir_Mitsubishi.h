@@ -37,6 +37,7 @@ const uint8_t kMitsubishiAcAuto = 0b100;
 const uint8_t kMitsubishiAcCool = 0b011;
 const uint8_t kMitsubishiAcDry =  0b010;
 const uint8_t kMitsubishiAcHeat = 0b001;
+const uint8_t kMitsubishiAcFan = 0b111;
 const uint8_t kMitsubishiAcPowerOffset = 5;
 const uint8_t kMitsubishiAcPower = 1 << kMitsubishiAcPowerOffset;  // 0x20
 const uint8_t kMitsubishiAcFanOffset = 0;

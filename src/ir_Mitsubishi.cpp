@@ -665,6 +665,7 @@ stdAc::opmode_t IRMitsubishiAC::toCommonMode(const uint8_t mode) {
     case kMitsubishiAcCool: return stdAc::opmode_t::kCool;
     case kMitsubishiAcHeat: return stdAc::opmode_t::kHeat;
     case kMitsubishiAcDry:  return stdAc::opmode_t::kDry;
+    case kMitsubishiAcFan:  return stdAc::opmode_t::kFan;
     default:                return stdAc::opmode_t::kAuto;
   }
 }
